@@ -4,10 +4,49 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Maps Card</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
+<!-- import React from 'react';
+
+const Header = () => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault(); // Impede o recarregamento da página
+
+    // Obtemos os valores dos campos do formulário
+    const form = e.currentTarget;
+    const nomeFantasia = (form.nomeFantasia as HTMLInputElement).value;
+    const endereco = (form.endereco as HTMLInputElement).value;
+
+    // Monta a mensagem para o WhatsApp
+    const mensagem = `Olá! Seguem os dados da empresa:\n\nNome Fantasia: ${nomeFantasia}\nEndereço: ${endereco}`;
+
+    // Número de telefone (inclua o código do país)
+    const telefone = "+5511911594103";
+    const whatsappLink = `https://wa.me/${telefone}?text=${encodeURIComponent(mensagem)}`;
+
+    // Abre o link do WhatsApp em uma nova aba
+    window.open(whatsappLink, "_blank");
+  };
+
+  return (
+    <div>
+      <form id="empresaForm" onSubmit={handleSubmit}>
+        <label htmlFor="nomeFantasia">Nome Fantasia:</label>
+        <input type="text" id="nomeFantasia" name="nomeFantasia" required />
+
+        <label htmlFor="endereco">Endereço:</label>
+        <input type="text" id="endereco" name="endereco" required />
+
+        <button type="submit">Enviar pelo WhatsApp</button>
+      </form>
+    </div>
+  );
+};
+
+export default Header;
+ -->
