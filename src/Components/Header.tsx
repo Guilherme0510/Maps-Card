@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-scroll";
-import { images } from "../assets/assets";
+import { images } from "../Assets/assets";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

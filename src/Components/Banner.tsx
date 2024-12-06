@@ -1,4 +1,4 @@
-import { images } from "../assets/assets.ts";
+import { images } from "../Assets/assets.ts";
 import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
 

@@ -1,4 +1,4 @@
-import { images } from "../assets/assets";
+import { images } from "../Assets/assets";
 
 const Sobre = () => {
   return (
