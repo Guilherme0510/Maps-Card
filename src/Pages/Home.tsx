@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../Components/Header'
 import Banner from '../Components/Banner'
 import Sobre from '../Components/Sobre'
