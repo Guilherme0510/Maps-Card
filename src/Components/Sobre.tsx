@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import { images } from "../Assets/assets";
 
 const Sobre = () => {
@@ -26,9 +27,9 @@ const Sobre = () => {
           <p className="mb-6">
             Com nossos cartões, você pode aumentar sua credibilidade e atrair novos clientes. Oferecemos soluções práticas e acessíveis para que sua empresa se destaque no mercado e alcance mais pessoas.
           </p>
-          <button className="px-6 py-3 bg-white border border-black rounded-md shadow hover:bg-gray-900 hover:text-white hover:border-white transition">
+          <Link to="contato"  className="cursor-pointer px-6 py-3 bg-white border border-black rounded-md shadow hover:bg-gray-900 hover:text-white hover:border-white transition">
             Entre em Contato
-          </button>
+          </Link>
         </div>
         </div>
       </div>

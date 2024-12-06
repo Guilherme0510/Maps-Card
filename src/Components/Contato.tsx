@@ -27,7 +27,7 @@ const Contato = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8 bg-white text-gray-900 rounded-lg shadow-lg">
+    <div className="max-w-4xl mx-auto px-4 py-8 bg-white text-gray-900 rounded-lg shadow-lg" id="contato">
       <h2 className="text-3xl font-bold text-center mb-6">Fale Conosco 💬</h2>
       <p className="text-center mb-4">
         Tem algum problema técnico? 🤔 Quer enviar feedback sobre uma

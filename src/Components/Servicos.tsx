@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Servicos = () => {
   return (
-    <div className="bg-gray-900 text-white py-16 md:px-36 px-5">
+    <div className="bg-gray-900 text-white py-16 md:px-36 px-5" id="servicos">
       <h2 className="text-center text-3xl font-semibold mb-8">
         Planos para o Seu Negócio
       </h2>
